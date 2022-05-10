@@ -4,7 +4,7 @@ import static spark.Spark.*;
 
 public class App {
     public static void main(String[] args) {
-        port(8080);
+        port(8081);
         get("/calc/:method/:op1/:op2", (req, res) -> {
             res.type("application/json");
             Calculator calc = new Calculator();
