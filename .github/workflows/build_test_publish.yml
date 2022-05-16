@@ -28,4 +28,4 @@ jobs:
       run: mvn test
     - uses: sfdx-actions/setup-pmd@v1
     - name: PMD Source Code Analyzer
-      run: pmd -d ./src -R category/java/bestpractices.xml -f text
+      run: pmd -d ./src -R pmd_ruleset.xml -f text

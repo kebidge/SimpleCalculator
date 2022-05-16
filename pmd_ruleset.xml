@@ -6,11 +6,12 @@
     xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
 
     <description>
-        PMD Ruleset for CID/CD Demo
+        PMD Ruleset for CI/CD Demo
     </description>
 
     <rule ref="rulesets/java/quickstart.xml">
         <exclude name="UnusedImports"/>
         <exclude name="UseUtilityClass" />
+        <exclude name="JUnitAssertionsShouldIncludeMessage" />
     </rule>
 </ruleset>
