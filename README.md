@@ -1,2 +1,2 @@
 # SimpleCalculator
-![example workflow](https://github.com/kebidge/DevOpsTest/blob/main/.github/workflows/maven.yml/badge.svg)
+![example workflow](https://github.com/kebidge/SimpleCalculator/blob/main/.github/workflows/build_test_publish.yml/badge.svg)
