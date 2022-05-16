@@ -1,2 +1,2 @@
 # SimpleCalculator
-![example workflow](https://github.com/kebidge/SimpleCalculator/blob/main/.github/workflows/build_test_publish.yml/badge.svg)
+![example workflow](https://camo.githubusercontent.com/c310c96200d57302f8716ff6f48e3f9395044f04510367f2d4e391c8bbb62ca5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f74657374732d332532307061737365642d73756363657373)
