@@ -15,7 +15,7 @@
     </rule>
 
     <rule ref="category/java/bestpractices.xml">
-        <exclude name="UnusedPrivateMethod"/>
+        <exclude name="UnusedImports"/>
         <exclude name="JUnitAssertionsShouldIncludeMessage" />
     </rule>
 </ruleset>
