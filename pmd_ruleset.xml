@@ -12,6 +12,9 @@
     <rule ref="rulesets/java/quickstart.xml">
         <exclude name="UnusedImports"/>
         <exclude name="UseUtilityClass" />
+    </rule>
+
+    <rule ref="category/java/bestpractices.xml">
         <exclude name="JUnitAssertionsShouldIncludeMessage" />
     </rule>
 </ruleset>
