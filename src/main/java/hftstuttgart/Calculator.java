@@ -16,5 +16,12 @@ public class Calculator {
         //sum *= op1;
         //sum *= op2;
         return sum;
+    }      
+
+    public int dif(int op1, int op2) {
+        int sum = 0;
+        sum += op1;
+        sum -= op2;
+        return sum;
     }    
 }

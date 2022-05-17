@@ -18,4 +18,11 @@ public class CalculatorTest {
         int prod = calc.prod(3, 7);
         assertEquals(21, prod);
     }
+
+    @Test
+    public void difNumbers() {
+        Calculator calc = new Calculator();
+        int dif = calc.dif(7, 3);
+        assertEquals(4, dif);
+    }
 }

@@ -18,6 +18,9 @@ public class App {
                 case "prod":
                     result = calc.prod(op1, op2);
                     break;
+                case "dif":
+                    result = calc.dif(op1, op2);
+                    break;
                 default:
             }
             return "{\"result\": " + result + "\"}";
